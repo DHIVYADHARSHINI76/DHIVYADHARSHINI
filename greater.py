@@ -1,12 +1,13 @@
-num_1=input()
-num_2=input()
-num_3=input()
+x,y,z=input().split()
+num_1=int(x)
+num_2=int(y)
+num_3=int(z)
 if(num_1>num_2):
   if(num_1>num_3):
     print(num_1)
   else:
     print(num_3)
 elif(num_2>num_3):
-  print(num_2)
+    print(num_2)
 else:
-  print(num_3)
+    print(num_3)
